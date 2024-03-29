@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AddTask from './components/AddTask';
 import Footer from './components/Footer';
 import About from './components/About';
-import ReactDOM from "react-dom/client";
 
 function App() {
   const [showAddTask, setShowAddTask] = useState(false)
@@ -120,16 +119,6 @@ function App() {
 
 
 
-  //   <BrowserRouter>
-  //   <Routes>
-  //     <Route path="/" element={<Layout />}>
-  //       <Route index element={<Home />} />
-  //       <Route path="about" element={<About />} />
-  //       <Route path="contact" element={<Contact />} />
-  //       <Route path="*" element={<NoPage />} />
-  //     </Route>
-  //   </Routes>
-  // </BrowserRouter>
   );
 }
 
